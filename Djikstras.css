@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#grid {
+    margin: 20px auto;
+    width: 600px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+    border: 2px solid black;
+}
+
+.grid-item {
+    background-color: white;
+    border: 1px solid black;
+}
+
+.grid-item.start {
+    background-color: orange;
+}
+
+.grid-item.end {
+    background-color: turquoise;
+}
+
+.grid-item.wall {
+    background-color: black;
+}
+
+.grid-item.visited {
+    background-color: green;
+}
+
+.grid-item.path {
+    background-color: purple;
+}
+
+#start-btn, #reset-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
