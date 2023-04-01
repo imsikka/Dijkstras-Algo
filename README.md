@@ -14,7 +14,7 @@ Once you have downloaded or cloned the repository, simply open the index.html fi
 Simple user interface
 Visualizes Dijkstra's algorithm in real time
 Allows users to specify start and end nodes
-##Technologies Used
+## Technologies Used
 HTML
 CSS
 JavaScript
